@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Онлайн запись [Бета версия]</string>
+    <string name="title_activity_forms">FormsActivity</string>
+    <string name="title_home">Мой профиль</string>
+    <string name="title_dashboard">Запись</string>
+    <string name="title_notifications">Очередь</string>
+</resources>

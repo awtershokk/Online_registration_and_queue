@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "666134886685",
+    "firebase_url": "https://zapisv3-91c44-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "zapisv3-91c44",
+    "storage_bucket": "zapisv3-91c44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666134886685:android:f46205db0121973f1dc9f4",
+        "android_client_info": {
+          "package_name": "com.example.zapis_version3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlinB6yMIxaAs4Z4pWkRFpPTJ7TMwTZmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

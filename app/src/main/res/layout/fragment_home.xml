@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".ui.home.HomeFragment">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="260dp"
+            android:layout_height="264dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/imya_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:text="Имя Фамилия" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textSize="17sp"
+            android:text="Почта" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="411dp"
+                android:layout_height="48dp"
+                >
+
+                <Button
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:gravity="start|center_vertical"
+                    android:text="Мои записи"
+                    android:id="@+id/myRecordsButton"
+                    android:textColorLink="#FFFFFF"
+                    android:textColor="#2D6ACC"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:gravity="center"
+                    android:text=">"
+                    android:textColor="#2D6ACC"
+                    android:textSize="28dp" />
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="390dp"
+                android:layout_gravity="center"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray" />
+            <LinearLayout
+                android:layout_width="411dp"
+                android:layout_height="48dp"
+                >
+
+                <Button
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:gravity="start|center_vertical"
+                    android:text="Раздел в разработке..."
+                    android:textColor="#72767D"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=">"
+                    android:textSize="28dp"
+                    android:textColor="#72767D"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="390dp"
+                android:layout_gravity="center"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray" />
+            <LinearLayout
+                android:layout_width="411dp"
+                android:layout_height="48dp"
+                >
+
+                <Button
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:gravity="start|center_vertical"
+                    android:text="Раздел в разработке..."
+                    android:textColor="#72767D"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=">"
+                    android:textSize="28dp"
+                    android:textColor="#72767D"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="390dp"
+                android:layout_gravity="center"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray" />
+            <LinearLayout
+                android:layout_width="411dp"
+                android:layout_height="48dp"
+                >
+
+                <Button
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:gravity="start|center_vertical"
+                    android:text="Раздел в разработке..."
+                    android:textColor="#72767D"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=">"
+                    android:textSize="28dp"
+                    android:textColor="#72767D"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="390dp"
+                android:layout_gravity="center"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray" />
+            <LinearLayout
+                android:layout_width="411dp"
+                android:layout_height="48dp"
+                >
+
+                <Button
+                    android:layout_width="340dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:gravity="start|center_vertical"
+                    android:text="Раздел в разработке..."
+                    android:textColor="#72767D"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=">"
+                    android:textSize="28dp"
+                    android:textColor="#72767D"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <!-- Ваши элементы здесь -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="20dp">
+
+            <!-- Ваши элементы здесь -->
+            <TextView
+                android:id="@+id/textViewMestoUslugaAdres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewMestoVochered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewMestoUslugaAdres"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewMestoVochered"
+                android:fontFamily="@font/ubuntu_medium"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonExit"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTimer"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#2D6ACC"
+                android:fontFamily="@font/ubuntu_medium"
+                android:text="Выйти из очереди" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
